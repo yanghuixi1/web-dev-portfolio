@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background: wheat;
+}
+
+header {
+  background: rgb(12, 102, 138);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header h1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 40px;
+  margin: 20px;
+  color: seashell;
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 25px;
+}
+
+footer {
+  background: rgb(12, 102, 138);
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 30px;
+}
+
+footer a {
+  text-align: center;
+  font-size: 25px;
+}
+
+.info {
+  display: flex;
+}
+
+#pic:hover {
+  transform: scale(1.1);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.products {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#pic {
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+  transform: rotate(8deg);
+  width: 25%;
+  height: 100%;
+  /* flex: 0 0 300px; */
+  justify-content: center;
+  /* How can the cards be the same size? */
+}
+
+.card header {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.card p {
+  text-align: center !important ;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+}
+
+/* Large smartphones - header changes color */
+@media screen and (max-width: 768px) {
+  header {
+    background-color: #bb8588;
+  }
+}
+
+/* Small smartphones - header changes color */
+@media screen and (max-width: 576px) {
+  header {
+    background-color: #8ac4ff;
+  }
+}
