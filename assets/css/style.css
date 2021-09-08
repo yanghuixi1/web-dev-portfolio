@@ -58,15 +58,15 @@ footer a {
   text-align: center;
   font-size: 25px;
 }
-
+/* Style for profile picture and paragraphs */
 .info {
   display: flex;
 }
 
-#pic:hover {
+#profilePicture:hover {
   transform: scale(1.1);
 }
-
+/* Hover on 3 cards, pictures will be larger */
 .card:hover {
   transform: scale(1.1);
 }
@@ -79,7 +79,7 @@ footer a {
   justify-content: space-evenly;
 }
 
-#pic {
+#profilePicture {
   width: 200px;
   height: auto;
   border: 1px solid black;
@@ -97,9 +97,7 @@ footer a {
   transform: rotate(8deg);
   width: 25%;
   height: 100%;
-  /* flex: 0 0 300px; */
   justify-content: center;
-  /* How can the cards be the same size? */
 }
 
 .card header {
@@ -112,7 +110,7 @@ footer a {
 .card p {
   text-align: center !important ;
 }
-
+/* Images in the cards have 100% width */
 .card img {
   width: 100%;
 }
