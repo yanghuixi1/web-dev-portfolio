@@ -1,4 +1,6 @@
-#Web Development Portfolio
+# Web Development Portfolio
+
+I am Yanghui Xi, a web developer with a focus on education applications. Visit my portfolio to see previews of my projects. There, you can also find links to my contact information as well as my resume.
 
 ---
 
