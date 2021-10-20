@@ -102,7 +102,7 @@ footer a {
   justify-content: center;
 }
 /* Prevent link access from modifying the text style */
-#link {
+.link {
   text-decoration: none;
 }
 
