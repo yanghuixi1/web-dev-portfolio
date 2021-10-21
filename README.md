@@ -17,3 +17,7 @@ The layout of the repository is as such:
 Image of the current website:
 
 ![Portfolio Landing Page](/assets/images/portfolio.png)
+
+---
+
+If you have questions or problems about this repository, please email me at yanghui.xi1@gmail.com.
