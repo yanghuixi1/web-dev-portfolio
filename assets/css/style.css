@@ -122,6 +122,11 @@ footer a {
   width: 100%;
 }
 
+.project-title:hover {
+  background-color: wheat;
+  color: rgb(12, 102, 138);
+}
+
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
   nav ul {
